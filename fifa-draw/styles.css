@@ -8829,7 +8829,7 @@ body {
     text-align: center;
     overflow-y: auto; }
   .mobile-emulator {
-    background-image: url("/assets/images/iphone.png");
+    background-image: url("./assets/images/iphone.png");
     width: 671px;
     height: 1178px;
     background-size: 671px 1178px;
@@ -8844,46 +8844,6 @@ body {
     display: inline-block;
     -webkit-overflow-scrolling: touch;
     overflow: hidden; } }
-
-.simple-draw .inputButtonsChild {
-  display: inline-block; }
-
-.simple-draw .inputButtonsChild.inputButtons {
-  width: 30px;
-  color: white;
-  background-color: #00003f;
-  margin: 0;
-  padding: 10px; }
-
-.simple-draw .inputButtonsChild.countInput {
-  width: 120px;
-  background-color: white;
-  border: none;
-  text-align: center;
-  color: black;
-  font-weight: bold;
-  margin: 0; }
-
-.simple-draw input {
-  text-align: center; }
-
-.simple-draw .playerInput {
-  border-radius: 10px;
-  width: 100px;
-  margin: 10px;
-  font-weight: bold; }
-
-.simple-draw .plusMinus {
-  font-size: 10px; }
-
-.simple-draw .confirmBtn {
-  margin-top: 5px;
-  /* background-color: black; */
-  background-color: #00003f;
-  border-radius: 5px;
-  color: white;
-  width: 185px !important;
-  border: none; }
 
 .about .more-opacity {
   background-color: rgba(255, 219, 23, 0.9); }
@@ -9006,3 +8966,43 @@ body {
 .result .seperator {
   width: 30%;
   display: inline-block; }
+
+.simple-draw .inputButtonsChild {
+  display: inline-block; }
+
+.simple-draw .inputButtonsChild.inputButtons {
+  width: 30px;
+  color: white;
+  background-color: #00003f;
+  margin: 0;
+  padding: 10px; }
+
+.simple-draw .inputButtonsChild.countInput {
+  width: 120px;
+  background-color: white;
+  border: none;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  margin: 0; }
+
+.simple-draw input {
+  text-align: center; }
+
+.simple-draw .playerInput {
+  border-radius: 10px;
+  width: 100px;
+  margin: 10px;
+  font-weight: bold; }
+
+.simple-draw .plusMinus {
+  font-size: 10px; }
+
+.simple-draw .confirmBtn {
+  margin-top: 5px;
+  /* background-color: black; */
+  background-color: #00003f;
+  border-radius: 5px;
+  color: white;
+  width: 185px !important;
+  border: none; }
