@@ -8934,55 +8934,6 @@ hr {
 .about .about-header {
   margin-bottom: 15px; }
 
-.help {
-  color: white; }
-  .help .header {
-    margin-bottom: 40px; }
-  .help .button {
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #000;
-    font: normal 700 24px/1 "Calibri", sans-serif;
-    text-align: center;
-    text-shadow: 1px 1px 0 #000;
-    width: 200px;
-    cursor: pointer;
-    background: white;
-    padding: 10px;
-    border-radius: 10px; }
-  .help p {
-    font-size: 18px;
-    margin-bottom: 20px; }
-  .help .help-cont {
-    color: black;
-    border-radius: 10px;
-    max-width: 390px;
-    height: 270px;
-    margin-bottom: 30px;
-    background: rgba(255, 255, 255, 0.9);
-    padding-top: 20px; }
-    .help .help-cont.results {
-      height: 355px; }
-    .help .help-cont.by-level {
-      height: 330px; }
-    .help .help-cont.bl2 {
-      height: 350px; }
-  .help .simple-draw-help {
-    -webkit-transition: all linear 0.5s;
-    transition: all linear 0.5s; }
-    .help .simple-draw-help.simple-draw-help.ng-hide {
-      opacity: 0; }
-  .help .by-level-draw-help {
-    -webkit-transition: all linear 0.5s;
-    transition: all linear 0.5s; }
-    .help .by-level-draw-help.by-level-draw-help.ng-hide {
-      opacity: 0; }
-  .help .help-pic {
-    -webkit-box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.75); }
-
 .by-level-draw .header {
   font-size: 40px;
   margin-bottom: 20px; }
@@ -9039,6 +8990,55 @@ hr {
   .by-level-draw .playerInput.error {
     background: #f2dede;
     border: 1px solid #a21111; }
+
+.help {
+  color: white; }
+  .help .header {
+    margin-bottom: 40px; }
+  .help .button {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font: normal 700 24px/1 "Calibri", sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    width: 200px;
+    cursor: pointer;
+    background: white;
+    padding: 10px;
+    border-radius: 10px; }
+  .help p {
+    font-size: 18px;
+    margin-bottom: 20px; }
+  .help .help-cont {
+    color: black;
+    border-radius: 10px;
+    max-width: 390px;
+    height: 270px;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    padding-top: 20px; }
+    .help .help-cont.results {
+      height: 355px; }
+    .help .help-cont.by-level {
+      height: 330px; }
+    .help .help-cont.bl2 {
+      height: 350px; }
+  .help .simple-draw-help {
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s; }
+    .help .simple-draw-help.simple-draw-help.ng-hide {
+      opacity: 0; }
+  .help .by-level-draw-help {
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s; }
+    .help .by-level-draw-help.by-level-draw-help.ng-hide {
+      opacity: 0; }
+  .help .help-pic {
+    -webkit-box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 28px 5px rgba(0, 0, 0, 0.75); }
 
 .menu .menu-header {
   position: relative;
