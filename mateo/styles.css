@@ -1,0 +1,149 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    background-color: #1a202c;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+    font-size: 120%;
+}
+
+.slide {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    padding: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    animation: fadeIn 0.4s ease-out;
+}
+
+.slide.active {
+    display: flex;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.brawl-card {
+    background: rgba(0, 0, 0, 0.4);
+    border: 4px solid #fbbf24;
+    border-radius: 24px;
+    padding: 32px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+    width: 98%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.title-yellow {
+    color: #fbbf24;
+    text-shadow: 3px 3px 0px #92400e;
+    font-weight: 900;
+    font-size: 5rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.image-placeholder {
+    background: #2d3748;
+    border: 2px solid #4a5568;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-birthday .image-placeholder img {
+    object-fit: cover;
+}
+
+.btn-nav {
+    position: fixed;
+    bottom: 25px;
+    background: #fbbf24;
+    color: #1a202c;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 900;
+    cursor: pointer;
+    z-index: 100;
+    box-shadow: 0 4px 0 #92400e;
+}
+
+.btn-nav:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #92400e;
+}
+
+.next { left: 30px; }
+.prev { right: 30px; }
+
+.grid-birthday {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 12px;
+    flex: 1;
+    min-height: 0;
+}
+
+.grid-birthday .image-placeholder {
+    height: 100%;
+}
+
+.image-placeholder {
+    cursor: pointer;
+}
+
+.image-placeholder:hover img {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+#lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.97);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+}
+
+#lightbox.active {
+    display: flex;
+}
+
+#lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.8);
+}
+
+.brawler-stat {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 14px 20px;
+    border-radius: 12px;
+    margin: 6px;
+    font-size: 1.5rem;
+}
